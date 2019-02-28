@@ -1,0 +1,237 @@
+{% load staticfiles %}
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Aditya Raj">
+    <!-- Page Title -->
+    <title>Write Essay &mdash;</title>
+    <meta name="description" content="Welcome to LNCT essay writing portal. You can write essay assignements here which will be directly submitted to the concerned faculty.">
+    <meta name="keywords" content="lnct,essay,article,faculty,bhopal,lakshmi narain college,college">
+    <!--CSS  Tags-->
+    <script src="http://code.jquery.com/jquery-1.5.js"></script>
+
+    <link rel="stylesheet" href="{% static 'css/plugins.css' %}">
+    <link rel="stylesheet" href="{% static 'css/shortcodes.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/skins/default-skin.css' %}">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{% static 'images/logos/favicon.png' %}">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <!-- Preloader Color & Opction -->
+        <div class="loader-4">
+            <div class="loader">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader -->
+
+	    <header class="header header-sticky header-transparent-dark">
+        <!-- Start Top Search -->
+        <div class="top-search">
+            <span class="input-group-addon close-search">
+                <i class="ti-close"></i>
+            </span>
+            <div class="top-search-page">
+                <div class="input-group absolute-center">
+                    <span class="input-group-addon search-icon">
+                        <i class="ti-search"></i>
+                    </span>
+                    <input type="text" class="form-control search-input" placeholder="Search anything ....">
+                </div>
+            </div>
+        </div>
+        <!-- End Top Search -->
+        <!-- Static navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="{% url 'landing_page' %}">
+                    <img src="{% static 'images/logos/logo-light.png' %}" alt="notfound">
+                </a>
+                <ul class="extra-navbar-item">
+
+                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </button>
+                <!-- Nav Items -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <!--
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="%24.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu to-left">
+                                <li>
+                                    <a class="dropdown-item dropdown-toggle" href="#">Blog Masonry</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="blog-masonry-columns-4.html">Grid 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item dropdown-toggle" href="#">Single Post</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="blog-single-left.html">Left Sidebar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">Teacher Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- End Nav Items -->
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <section class="overlay parallax" data-speed="0.1" data-background="{% static 'images/lnct.jpeg' %}" data-overlay-color="dark"
+        data-overlay="6">
+        <div class="container">
+            <div class="row align-items-center full-height text-white  p-y100">
+                <div class="col-lg-8 mx-auto col-12 text-center">
+                    <h2 class="p-b20 f-size-60 l-height-60 f-w-300 l-spacing-4">Welcome to LNCT</h2>
+                    <h5 class="text-uppercase p-b0 l-spacing-5">Essay and article writing portal</h5>
+                    <h6 class="p-b20 l-spacing-2 f-w-300"></h6>
+                    <a href="{% url 'accounts:index' %}" class="button button-glass button-circle">Start Writing</a>
+                </div>
+                <a href="#about" class="m-t100 d-block page-scroll">
+                    <div class="mouse-wrapper">
+                        <div class="mouse">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 p-sm-b40">
+                    <div class="section-title">
+                        <h2 class="f-w-700">Writing improvements</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <p class="text1 m-t10">The benefit that comes with writing essays or articles is the ability to establish yourself, your website, your company profile, etc. Sharing valuable information is a great way for businesses and individuals to help the world get to know them and trust their services or knowledge. In terms of optimizing your visibility on the internet, writing articles and giving reference to you
+                        as the source is something that can help people find more accurate information from you and also from the other sources connected to you.
+                    </p><p>
+                    <ul>
+                        <div class="text-uppercase">Tips :</div>
+                        <li>
+                            &nbsp; Choose interesting angles.
+                        </li>
+                        <li>
+                           &nbsp; Create an outline.
+                        </li>
+                        <li>
+                           &nbsp; Beware of spelling mistakes.
+                        </li>
+                        <li>
+                           &nbsp; All the grammatical mistakes is also recorded.
+                        </li>
+
+
+                </ul></p>
+                    <p>All the best.</p>
+                </div>
+                <div class="col-md-5 offset-md-1 text-right">
+                    <img class="rounded shadow" src="{% static 'images/home/writing.png' %}" alt="About">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<footer class="footer-padding footer-dark">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-6">
+                        <div class="widget">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/adityaraj1711">The website is developed by Aditya Raj (CSE)</a>
+                                </li>
+                            </ul>
+                            <div class="footer-social-icons">
+                                <ul>
+
+                            <!-- start social media -->
+
+                                    <li>
+                                        <a href="https://www.facebook.com/adityaraj1711">
+                                            <span class="fa fa-facebook"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/adityamailbox0/">
+                                            <span class="fa fa-linkedin"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end social media -->
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <!-- Footer Navigation -->
+                        <div class="widget">
+                            <h6 class="text-uppercase">Navigation</h6>
+                            <ul>
+                                <li>
+                                    <a href="{% url 'landing_page' %}">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Footer Navigation -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright -->
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Footer Copyright Text -->
+                        <p class="copyright-text">Copyright &copy;
+                            <a href="">LNCT, Bhopal</a> 2019, All rights reserved.</p>
+                        <!-- Footer Copyright Text -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright -->
+    </footer>
+
+    <!-- All Javascript -->
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

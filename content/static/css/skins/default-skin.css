@@ -1,0 +1,91 @@
+/*Green - #4CAF50
+/*Green - #8ac832 new
+
+sky - #2196f3
+sky - #03a9f4
+sky - #00bcd4
+
+
+red - #ff4954
+/*-------------------------------------------------*/
+/*
+ /*-------------------------------------------------*/
+.video-button.video-button-color {
+  background: #505cfd;
+  border: 2px solid #505cfd;
+  color: #ffffff;
+}
+
+.video-button.video-button-color .video-button-animation {
+  background: #505cfd;
+}
+
+.overlay[data-overlay-color="theme-color"]:after {
+  background-color: #505cfd;
+}
+
+.theme-text-color {
+  color: #505cfd;
+}
+
+.divider,
+.theme-bg {
+  background: #505cfd !important;
+}
+
+/*-------------------------------------------------*/
+.button.button-color.button-shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(80, 92, 253, 0.3);
+  -moz-box-shadow: 0 0.5rem 1rem rgba(80, 92, 253, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(80, 92, 253, 0.3);
+}
+
+.progress-box.bar-color .progress-bar-item .progress .progress-bar,
+mark,
+.radio input[type="radio"] + label:after,
+.checkbox input[type="checkbox"]:checked + label:after,
+.loader-1.loader-color .loader > div,
+.loader-2.loader-color .loader > div,
+.loader-4.loader-color .loader > div,
+.header .navbar .extra-navbar-item .menu-extra.shpping-cart a span.badge,
+.overlay[data-overlay-color="theme"]:after {
+  background-color: #505cfd;
+}
+
+.blog .blog-info a:hover,
+.button.button-outline.button-color,
+.radio input[type="radio"] + label:before {
+  color: #505cfd;
+}
+
+.pricing-colored,
+.button.button-color {
+  background: #505cfd !important;
+  border-color: #505cfd !important;
+}
+
+.pricing-colored:hover,
+.button.button-color:hover {
+  color: #505cfd;
+  border-color: #505cfd;
+}
+
+.subscribe-form .button.button-color:hover {
+  background: #505cfd;
+  border-color: #505cfd;
+}
+
+.button.button-color.button-outline:hover {
+  background: #505cfd !important;
+}
+
+.radio input[type="radio"]:checked + label:before {
+  border: 2px solid #505cfd;
+}
+
+.loader-3.loader-color .loader > div:first-child {
+  border-top: 1px solid rgba(80, 92, 253, 0.8);
+  border-right: 1px solid rgba(80, 92, 253, 0.8);
+  border-bottom: 1px solid rgba(80, 92, 253, 0.8);
+  border-left: 1px solid rgba(80, 92, 253, 0.5);
+}
