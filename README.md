@@ -3,9 +3,9 @@ A website for writing essay in college. The website will be able to find grammat
 
 # Features
 > Spelling error support 
-> Articles support
-> Grammar support
-> Punctuation and white space error support
+- Articles support
+- Grammar support
+- Punctuation and white space error support
 
 ## Session
 > Each user logins in a new session that will be reflected by a new ID
