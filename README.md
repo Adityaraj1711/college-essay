@@ -18,5 +18,5 @@ A website for writing essay in college. The website will be able to find grammat
 ## todo
 - Context error (like - predicting if the article does sound related to the topic)
 - increase learning capacity ( most of the grammatical errors are still undetected)
-
+> Please Create issue if you face one.
 ### the website works like grammarly but doesn't use any API.
